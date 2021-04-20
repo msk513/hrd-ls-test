@@ -1,7 +1,10 @@
 
 <!DOCTYPE HTML>
 <HTML>
-    <head><meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1"></head>
+    <head>
+	    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	    <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
+    </head>
 <BODY>
     <BR>HRD LS Test!
 
@@ -20,7 +23,7 @@
 <script type='text/javascript'>
 	var initESW = function(gslbBaseURL) {
 		embedded_svc.settings.displayHelpButton = true; //または false
-		embedded_svc.settings.language = ''; //たとえば、「en」または「en-US」を入力します
+		embedded_svc.settings.language = 'jp'; //たとえば、「en」または「en-US」を入力します
 
 		//embedded_svc.settings.defaultMinimizedText = '...'; //(エキスパートとチャットにデフォルト設定)
 		//embedded_svc.settings.disabledMinimizedText = '...'; //(エージェントがオフラインにデフォルト設定)
