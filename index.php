@@ -1,4 +1,4 @@
 
 <?php
-header('Location: /index.html');
+header('Location: /ls_for_guest.html');
 ?>
